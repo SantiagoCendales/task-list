@@ -39,10 +39,10 @@ export const TaskInput= () => {
             rounded-full
             py-[12px]
             px-4
-            focus:outline-rose-200"
+            focus:outline-emerald-200"
         />
         <button
-          className='absolute top-[5px] right-1 bg-rose-500 rounded-full px-6 py-2 outline-none'
+          className='absolute top-[5px] right-1 bg-emerald-500 rounded-full px-6 py-2 outline-none'
         >
             Agregar
         </button>

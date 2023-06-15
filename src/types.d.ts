@@ -18,3 +18,8 @@ export interface TaskListContextType {
   checkTask: (id: string) => void
   editTask: (task: Task) => void
 }
+
+interface FiltersContextType {
+  isTaskDone: boolean | undefined
+  setIsTaskDone: (isDone: any) => void
+}
