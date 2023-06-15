@@ -29,7 +29,7 @@ export const TaskInput= () => {
           name="description"
           value={description}
           onChange={onInputChange}
-          placeholder="Comprar tomates, etc..."
+          placeholder="Agregar a la lista!"
           type="text"
           className="
             w-full

@@ -16,7 +16,7 @@ export const Filter = () => {
           ${isTaskDone === undefined ? 'bg-emerald-400' : ''}`
         } 
           onClick={() => setIsTaskDone(undefined)}>
-        <p>Todos</p>
+        <p>Todas</p>
       </div>
       <div 
         className={
@@ -30,7 +30,7 @@ export const Filter = () => {
           ${isTaskDone ? 'bg-emerald-400' : ''}`
         }
           onClick={() => setIsTaskDone(true)}>
-        <p>Terminado</p>
+        <p>Terminadas</p>
       </div>
       <div 
         className={
@@ -44,7 +44,7 @@ export const Filter = () => {
           ${isTaskDone === false ? 'bg-emerald-400' : ''}`
         } 
           onClick={() => setIsTaskDone(false)}>
-        <p>Pendiente</p>
+        <p>Pendientes</p>
       </div>
     </div>
   )
