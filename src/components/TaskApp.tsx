@@ -18,7 +18,6 @@ export const TaskApp: React.FC<TaskAppProps> = ({title}) => {
   const [isDone, setIsDone] = useState<boolean>()
 
   const filteredTask = (taskList: Task[]) => {
-    console.log(isDone)
     if(isDone === undefined) return taskList
     return taskList.filter(task => task.done === isDone )
   }
